@@ -20,9 +20,9 @@ function Header() {
       <div className="">
         <Link
           href="https://michaelosas.netlify.app"
-          className="px-5 py-3 text-sm md:text-base bg-gray-900 text-[#f7ab0a] flex items-center rounded-full text-center"
+          className="px-5 py-3 text-sm md:text-base bg-gray-900 text-[#38a0f9] flex items-center rounded-full text-center font-semibold"
         >
-          Subsribe to my newsletter
+          Contact me for any web project
         </Link>
       </div>
     </header>

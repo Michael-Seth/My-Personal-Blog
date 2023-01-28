@@ -33,7 +33,7 @@ export const RichTextComponents = {
             <h4 className="text-2xl py-10 font-bold">{children}</h4>
         ),
         blockquote: ({ children }: any) => (
-            <blockquote className="border-l-[#f7ab0a] border-l-4 pl-5 py-5 my-5">
+            <blockquote className="border-l-[#38a0f9] border-l-4 pl-5 py-5 my-5">
                 {children}
             </blockquote>
         )
@@ -43,7 +43,7 @@ export const RichTextComponents = {
             const rel = !value.href.startsWith("/") ? "noreferrer noopener" : undefined
 
             return (
-                <Link href={value.href} rel={rel} className="underline decoration-[#f7ab0a] hover:decoration-[#101010]">
+                <Link href={value.href} rel={rel} className="underline decoration-[#38a0f9] hover:decoration-[#101010]">
                     {children}
                 </Link>
             )
